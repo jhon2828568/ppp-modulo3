@@ -1,0 +1,11 @@
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Hundimiento de las calles"
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Emisión de gases tóxicos por fábrica clandestina"
+}

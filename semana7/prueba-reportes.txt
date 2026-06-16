@@ -1,0 +1,16 @@
+cuando se ejecuta el post en postman, con URL http://localhost:3000/reportes y el json {
+  "tipo": "Infraestructura prueba",
+  "descripcion": "Daño en alumbrado público - primera prueba"
+}
+muestra como resultado {
+    "mensaje": "Reporte registrado",
+    "reporte": {
+        "id": 1,
+        "tipo": "Infraestructura prueba",
+        "descripcion": "Daño en alumbrado público - primera prueba"
+    }
+}
+
+al ejecuta la misma url en el navegador muestra lo siguiente:
+[{"id":1,"tipo":"Infraestructura prueba","descripcion":"Daño en alumbrado público - primera prueba"}]
+
